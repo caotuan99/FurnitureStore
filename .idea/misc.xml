@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/drawable/bo_goc.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/drawable/chat.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/drawable/chat_left.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/drawable/chat_right.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/drawable/drawable_circle.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/drawable/ic_add.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/drawable/ic_giohang.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/drawable/round_bg.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/drawable/send_messenger.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/drawable/wave.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/drawable/while_shape.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/activity_ban_an.xml" value="0.25" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/activity_chat.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/activity_home_fragment.xml" value="0.1234375" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/activity_item_ban_an.xml" value="0.1234375" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/activity_len_don_mua_hang.xml" value="0.25" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/activity_messenger.xml" value="0.2" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/activity_quan_li_ban_an.xml" value="0.264" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/activity_quan_li_don_hang.xml" value="0.25" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/activity_quanli_user.xml" value="0.25" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/activity_register.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/activity_san_pham.xml" value="0.2" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/activity_search.xml" value="0.25" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/activity_splast.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/activity_them_san_pham.xml" value="0.25" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/activity_tu_van.xml" value="0.25" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/bogoc.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/fragment_account.xml" value="0.25" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/fragment_addmin.xml" value="0.25" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/fragment_doimatkhau.xml" value="0.25" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/fragment_donhang.xml" value="0.1484375" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/fragment_in_home.xml" value="0.25" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/fragment_tuvan.xml" value="0.25" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/giohang_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/home_fragment.xml" value="0.1234375" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/item_ban_an.xml" value="0.2" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/item_chat_left.xml" value="0.264" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/item_chat_rigt.xml" value="0.25" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/item_don_hang.xml" value="0.264" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/item_gio_hang.xml" value="0.2" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/item_img.xml" value="0.25" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/item_imgsp.xml" value="0.25" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/item_mua_hang.xml" value="0.25" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/item_ql_don_hang.xml" value="0.25" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/item_sanpham.xml" value="0.25" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/item_user.xml" value="0.2359375" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/layout_header_nav.xml" value="0.25" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/layout/quanli_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/caotu/AndroidStudioProjects/FurnitureStore/app/src/main/res/menu/menu_nav.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

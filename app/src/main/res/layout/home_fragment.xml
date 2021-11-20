@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/topView"
+        android:layout_width="449dp"
+        android:layout_height="223dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="436dp"
+        android:layout_height="83dp"
+        android:background="@drawable/wave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topView" />
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="144dp"
+        android:layout_height="106dp"
+
+        android:src="@drawable/logo"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:selectAllOnFocus="false"
+        android:text="Cửa hàng đồ gỗ mĩ nghệ Thúy Khanh"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Khu 1 thị trấn Ngô Đồng huyện Giao Thủy tỉnh Nam Định"
+        android:textSize="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv1" />
+
+    <TextView
+        android:id="@+id/edtSearch"
+        android:layout_width="202dp"
+        android:layout_height="45dp"
+        android:drawableEnd="@drawable/shopping"
+        android:gravity="center"
+        android:text="Bạn cần mua gì?"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view5" />
+
+    <LinearLayout
+        android:id="@+id/btnBanan"
+        android:layout_width="171dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bo_goc"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/btnBanGhe"
+        app:layout_constraintTop_toBottomOf="@+id/edtSearch">
+
+        <ImageView
+            android:id="@+id/imgDinnerTable"
+            android:layout_width="82dp"
+            android:layout_height="96dp"
+            android:src="@drawable/banan" />
+
+        <TextView
+            android:layout_width="89dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Bàn ăn"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnBanGhe"
+        android:layout_width="171dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bo_goc"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toRightOf="@+id/btnBanan"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtSearch">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="102dp"
+            android:layout_height="85dp"
+            android:src="@drawable/banghe" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Bộ bàn ghế"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnTuKe"
+        android:layout_width="171dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bo_goc"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/btnChat"
+        app:layout_constraintTop_toBottomOf="@+id/btnBanan">
+
+        <ImageView
+            android:id="@+id/imgtuke"
+            android:layout_width="94dp"
+            android:layout_height="80dp"
+            android:src="@drawable/tuke" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Tủ kệ"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnChat"
+        android:layout_width="171dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bo_goc"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toRightOf="@+id/btnTuKe"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBanGhe">
+
+        <ImageView
+            android:id="@+id/imggido"
+            android:layout_width="83dp"
+            android:layout_height="75dp"
+            android:src="@drawable/icon_consultant" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Tư vấn"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

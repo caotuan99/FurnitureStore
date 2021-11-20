@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/barlayout"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avatarUser"
+            android:layout_width="134dp"
+            android:layout_height="154dp"
+            android:src="@drawable/default_avatar"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Siêu thị đồ gỗ Thúy Khanh "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/avatarUser"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline1"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3"/>
+
+    <TextView
+        android:id="@+id/txtTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Tên : "
+        android:textSize="18dp"
+        app:layout_constraintRight_toLeftOf="@id/guideline1"
+        app:layout_constraintTop_toBottomOf="@id/view" />
+
+    <EditText
+        android:id="@+id/edtTen"
+        android:layout_width="288dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="32dp"
+        android:hint="Full Name"
+        android:textSize="18dp"
+        app:layout_constraintLeft_toRightOf="@id/guideline1"
+        app:layout_constraintTop_toBottomOf="@id/view" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDiachi"
+        android:text="Địa chỉ : "
+        android:textSize="18dp"
+        app:layout_constraintTop_toBottomOf="@id/edtTen"
+        app:layout_constraintRight_toLeftOf="@id/guideline1"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/edtDiachi"
+        android:layout_width="288dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="6dp"
+        android:hint="Địa chỉ"
+        android:textSize="18dp"
+        app:layout_constraintLeft_toRightOf="@id/guideline1"
+        app:layout_constraintTop_toBottomOf="@id/edtTen" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNumerphone"
+        android:text="Số điện thoại :"
+        android:textSize="18dp"
+        app:layout_constraintTop_toBottomOf="@id/edtDiachi"
+        app:layout_constraintRight_toLeftOf="@id/guideline1"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edtSdt"
+        android:layout_width="288dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="6dp"
+        android:hint="Số điện thoại :"
+        android:textSize="18dp"
+        app:layout_constraintLeft_toRightOf="@id/guideline1"
+        app:layout_constraintTop_toBottomOf="@id/edtDiachi" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/round_bg"
+        android:text="Cập nhật thông tin"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FFD68000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtSdt" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

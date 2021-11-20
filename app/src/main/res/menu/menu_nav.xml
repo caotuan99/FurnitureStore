@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:title="@string/nav_home"
+            android:icon="@drawable/ic_home"/>
+        <item android:id="@+id/nav_giohang"
+            android:title="@string/nav_giohang"
+            android:icon="@drawable/ic_giohang"/>
+    </group>
+    <item android:title="@string/nav_account">
+        <menu>
+            <item android:id="@+id/nav_myprofile"
+                android:title="@string/nav_myaccount"
+                android:icon="@drawable/ic_account"/>
+            <item android:id="@+id/nav_donhang"
+                android:title="Đơn hàng đã đặt"
+                android:icon="@drawable/ic_donhang"/>
+            <item android:id="@+id/nav_changepassword"
+                android:title="@string/nav_change_password"
+                android:icon="@drawable/ic_changepassword"/>
+            <item android:id="@+id/nav_signout"
+                android:title="Đăng xuất"
+                android:icon="@drawable/signout"/>
+        </menu>
+    </item>
+    <item android:title="Quản lí"
+        android:icon="@drawable/ic_admin"
+        android:id="@+id/nav_addmin"/>
+</menu>
